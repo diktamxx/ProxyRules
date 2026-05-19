@@ -1,5 +1,6 @@
 domain_suffix_set:
   - chatgpt.com
+  - openai.com
 
   - gemini.google.com
   - notebooklm.google.com
@@ -15,6 +16,8 @@ domain_suffix_set:
 
 domain_keyword_set:
   - chatgpt
+  - chat
+  - ab
 
   - gemini
   - notebooklm

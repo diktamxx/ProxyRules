@@ -1,5 +1,6 @@
 domain_suffix_set:
   - hk01.com
+  - dwnews.com
   - stheadline.com
   - hkgolden.com
   - lihkg.com
@@ -7,6 +8,7 @@ domain_suffix_set:
 
 domain_keyword_set:
   - www
+  - prod-comment-api
   - forum
   - track
   - cdn
