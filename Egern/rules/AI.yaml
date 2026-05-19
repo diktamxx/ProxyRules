@@ -11,6 +11,8 @@ domain_suffix_set:
 
   - suno.com
 
+  - claude.com
+
 domain_keyword_set:
   - chatgpt
 
@@ -23,3 +25,5 @@ domain_keyword_set:
   - poe
 
   - suno
+  
+  - code

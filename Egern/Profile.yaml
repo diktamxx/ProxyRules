@@ -1,4 +1,5 @@
 # ==========================================
+# 下载地址：https://raw.githubusercontent.com/diktamxx/ProxyRules/main/Egern/Profile.yaml
 # 参考：
 #   https://egernapp.com/zh-CN/docs/configuration/example
 #   https://raw.githubusercontent.com/jnlaoshu/MySelf/master/Egern/Profile.yaml
@@ -235,6 +236,18 @@ policy_groups:
       icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/YouTube.png
 
   - select:
+      name: Meta
+      policies: [香港节点, 手动选择]
+      flatten: true
+      icon: https://raw.githubusercontent.com/diktamxx/ProxyRules/main/icons/Meta.png
+
+  - select:
+      name: HKApp
+      policies: [香港节点, 手动选择]
+      flatten: true
+      icon: 📱
+
+  - select:
       name: GitHub
       policies: [台湾节点, 手动选择]
       flatten: true
@@ -284,7 +297,7 @@ rules:
       policy: DIRECT
 
   - rule_set:
-      match: https://raw.githubusercontent.com/diktamxx/ProxyRules/main/Egern/AI.yaml
+      match: https://raw.githubusercontent.com/diktamxx/ProxyRules/main/Egern/rules/AI.yaml
       policy: AI
 
   - rule_set:
@@ -306,6 +319,14 @@ rules:
   - rule_set:
       match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list
       policy: YouTube
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/diktamxx/ProxyRules/main/Egern/rules/Meta.yaml
+      policy: Meta
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/diktamxx/ProxyRules/main/Egern/rules/HKApp.yaml
+      policy: HKApp
 
   - rule_set:
       match: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list
