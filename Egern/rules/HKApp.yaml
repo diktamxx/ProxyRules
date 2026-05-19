@@ -8,3 +8,6 @@ domain_suffix_set:
 domain_keyword_set:
   - www
   - forum
+  - track
+  - cdn
+  - image
