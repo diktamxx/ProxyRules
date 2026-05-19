@@ -1,0 +1,25 @@
+domain_suffix_set:
+  - chatgpt.com
+
+  - gemini.google.com
+  - notebooklm.google.com
+  - stitch.withgoogle.com
+
+  - grok.com
+
+  - poe.com
+
+  - suno.com
+
+domain_keyword_set:
+  - chatgpt
+
+  - gemini
+  - notebooklm
+  - stitch
+
+  - grok
+
+  - poe
+
+  - suno
