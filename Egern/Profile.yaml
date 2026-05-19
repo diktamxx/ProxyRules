@@ -228,7 +228,7 @@ policy_groups:
       flatten: true
       icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/TikTok.png
 
-  - auto_test:
+  - select:
       name: YouTube
       policies: [香港节点, 手动选择]
       flatten: true
@@ -252,7 +252,7 @@ policy_groups:
       flatten: true
       icon: https://raw.githubusercontent.com/jnlaoshu/MySelf/main/image/PayPal.png
 
-  - auto_test:
+  - select:
       name: Telegram
       policies: [香港节点, 手动选择]
       flatten: true
