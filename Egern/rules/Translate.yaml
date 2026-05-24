@@ -1,0 +1,6 @@
+domain_suffix_set:
+  - brave.com
+  - google.com
+
+domain_keyword_set:
+  - translate

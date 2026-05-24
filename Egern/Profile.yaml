@@ -248,6 +248,12 @@ policy_groups:
       icon: 📱
 
   - select:
+      name: Translate
+      policies: [全部节点]
+      flatten: true
+      icon: 🌍
+
+  - select:
       name: GitHub
       policies: [台湾节点, 手动选择]
       flatten: true
@@ -323,6 +329,10 @@ rules:
   - rule_set:
       match: https://raw.githubusercontent.com/diktamxx/ProxyRules/main/Egern/rules/Meta.yaml
       policy: Meta
+
+  - rule_set:
+      match: https://raw.githubusercontent.com/diktamxx/ProxyRules/main/Egern/rules/Translate.yaml
+      policy: Translate
 
   - rule_set:
       match: https://raw.githubusercontent.com/diktamxx/ProxyRules/main/Egern/rules/HKApp.yaml
